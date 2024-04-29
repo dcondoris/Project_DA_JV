@@ -6,7 +6,7 @@ import seaborn as sns
 import joblib
 import os
 
-os.chdir("Streamlit")
+print(os.getcwd())
 
 df = pd.read_csv("vgsales_cleaned_franchise_random.csv")
 
