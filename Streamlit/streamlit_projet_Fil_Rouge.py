@@ -7,7 +7,7 @@ import joblib
 import os
 import urllib
 
-urllib.request.urlretrieve('https://assets-datascientest.s3.eu-west-1.amazonaws.com/vgsales_RandomForestReg_NoMaxDepth.joblib', 'vgsales_RandomForestReg_NoMaxDepth.joblib')
+urllib.request.urlretrieve('https://assets-datascientest.s3.eu-west-1.amazonaws.com/vgsales_RandomForestReg_NoMaxDepth.joblib', 'Streamlit/vgsales_RandomForestReg_NoMaxDepth.joblib')
 
 df = pd.read_csv("Streamlit/vgsales_cleaned_franchise_random.csv")
 
